@@ -14,5 +14,5 @@ class LegacyWeatherService(WeatherSerivce):
                 <temperature>{self.temperature}</temperature>
                 <condition>{self.condition}</condition>
             </weather>
-        """.strip()
+        """
         return data

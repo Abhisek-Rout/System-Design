@@ -15,5 +15,5 @@ class NewWeatherServiceAdapter(WeatherSerivce):
                 <temperature>{weather_data.get('temperature')}</temperature>
                 <condition>{weather_data.get('condition')}</condition>
             </weather>
-        """.strip()
+        """
         return weather_data_formatted
